@@ -1,0 +1,42 @@
+.todo-container{
+    border-radius: 2em;
+    padding: 10em;
+    background: rgb(37, 37, 37);
+    color: white;
+}
+.button{
+    border: 1px solid white;
+    border-radius: .5em;
+    height: 40px;
+    padding: 0 .5rem;
+    transition: all .2s ease;
+}
+.button:hover{
+    background: white;
+    color: rgb(37, 37, 37);
+}
+.todo{
+    margin-top: 2px;
+    padding: .5rem 1rem;
+    border-radius: 1em;
+    background: rgb(0, 0, 0);
+}
+#task{
+    border-radius: .5em;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    padding: 0 10px;
+}
+#task:active,#task:focus{
+    outline: none;
+}
+.deletebtn{
+    fill: transparent;
+    stroke: red;
+    transition: all 0.2s ease;
+}
+.deletebtn:hover{
+    fill: red;
+    stroke: transparent;
+}

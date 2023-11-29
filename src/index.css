@@ -1,0 +1,22 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Space+Grotesk:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background: rgb(37, 37, 37);
+    height: 100%;
+
+}
+h1,h2{
+    color: white;
+font-family: 'Space Grotesk', sans-serif;
+}
+a{
+    color: white;
+}
